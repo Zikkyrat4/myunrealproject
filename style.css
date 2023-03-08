@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: 1px solid black; 
+    width:100px;
+    height:20px;
+}
+.length1{
+    width:300px;
+}
+.length2{
+    width:70px
+}
+.length3{
+    width:35px;
+}
+.table{
+    text-align: center;
+}
+.text{
+    text-decoration: underline gray;
+    color:#252850;
+    background-color:red;
+}
+div{
+    font-weight: normal;
+}
+.border{
+    border:none;
+}
+.gray{
+    background-color:gray;
+}
