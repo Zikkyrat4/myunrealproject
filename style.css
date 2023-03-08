@@ -1,35 +1,104 @@
-table {
-    border-collapse: collapse;
-    text-align: center;
+body{
+    background-color: #11071F;
 }
-td {
-    border: 1px solid black; 
-    width:100px;
-    height:20px;
+header{
+    position: absolute;
+    width: 2000px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    background: #1A0B2E;
 }
-.length1{
-    width:300px;
+.logo{
+    position: absolute;
+    left: 400px;
+    top: 35px;
+    color:white;
 }
-.length2{
-    width:70px
+.home{
+    position: absolute;
+    width: 66px;
+    top: 43px;
+    left:800px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 27px;
+    color: #FFFFFF;
 }
-.length3{
-    width:35px;
+.about{
+    position: absolute;
+    width: 66px;
+    top: 43px;
+    left:900px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 27px;
+    color: #FFFFFF;
 }
-.table{
-    text-align: center;
+.contacts{
+    position: absolute;
+    width: 66px;
+    top: 43px;
+    left:1000px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 27px;
+    color: #FFFFFF;
 }
-.text{
-    text-decoration: underline gray;
-    color:#252850;
-    background-color:red;
+.memoji{
+    width: 258px;
+    height: 259px;
+    left: 65px;
+    top: 50px;
+    position: absolute;
 }
-div{
-    font-weight: normal;
+/*Градиент*/
+div{     
+    width: 385px;
+    height: 431px;
+    left: 385px;
+    top: 220px;
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+    position: absolute;
 }
-.border{
-    border:none;
+.arrow{
+position: absolute;
+width: 100px;
+height: 80px;
+left: 225px;
+top: 50px;
 }
-.gray{
-    background-color:gray;
+/*Приветствие*/
+.name{
+position: absolute;
+width: 245px;
+height: 20px;
+left: 315px;
+top: 60px;
+font-family: 'Preahvihear';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 97px;
+align-items: center;
+text-align: center;
+color: white;
+display: flex;
+letter-spacing: -0.5px;
+
+
 }
+
+
