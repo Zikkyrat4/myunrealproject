@@ -1,6 +1,7 @@
 body{
     background-color: #11071F;
 }
+/*шапка*/
 header{
     position: absolute;
     width: 2000px;
@@ -9,12 +10,14 @@ header{
     top: 0px;
     background: #1A0B2E;
 }
+/*логотип*/
 .logo{
     position: absolute;
     left: 400px;
     top: 35px;
     color:white;
 }
+/*навигационная панель*/
 .home{
     position: absolute;
     width: 66px;
@@ -57,6 +60,7 @@ header{
     height: 27px;
     color: #FFFFFF;
 }
+/*моя картинка*/
 .memoji{
     width: 258px;
     height: 259px;
@@ -65,7 +69,7 @@ header{
     position: absolute;
 }
 /*Градиент*/
-div{     
+.gradient{     
     width: 385px;
     height: 431px;
     left: 385px;
@@ -73,32 +77,116 @@ div{
     background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
     position: absolute;
 }
+/*стрелка к картинке*/
 .arrow{
-position: absolute;
-width: 100px;
-height: 80px;
-left: 225px;
-top: 50px;
+    width: 100px;
+    height: 80px;
+    left: 225px;
+    top: 50px;
+    position: absolute;
 }
 /*Приветствие*/
-.name{
-position: absolute;
-width: 245px;
-height: 20px;
-left: 315px;
-top: 60px;
-font-family: 'Preahvihear';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-line-height: 97px;
-align-items: center;
-text-align: center;
-color: white;
-display: flex;
-letter-spacing: -0.5px;
-
+.firstName{
+    color: white;
+    position: absolute;
+    height: 20px;
+    top: 60px;
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 97px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    letter-spacing: -0.5px;
+    width: 245px;
+    left:315px;
+}
+.secondName{
+    color: 7127BA;
+    position: absolute;
+    height: 20px;
+    top: 60px;
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 97px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    letter-spacing: -0.5px;
+    width: 245px;
+    left:405px;
+}
+/*мои цели*/
+.informationAboutMe{
+    /* A Developer who */
+    left: 325px;
+    top: 150px;
+    width: 140px;
+    font-family: 'Preahvihear';
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    height: 30px;
+}
+.informationAboutMe2{
+    /* Wants to learn how to make */
+    width: 386px;
+    height: 126px;
+    left: 325px;
+    top: 170px;
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 63px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    position: absolute;
+}
+.websites{
+    color:#763CAC;
+    font-size: 40px;
 
 }
-
+/*слово websites в кружочке*/
+.ellipse{
+box-sizing: border-box;
+position: absolute;
+width: 170px;
+height: 60px;
+left: 475px;
+top: 235px;
+transform: rotate(1deg);
+}
+.informationAboutMe3{
+    /* because i like it */
+    width: 350px;
+    height: 10px;
+    left: 325px;
+    top: 300px;
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    position: absolute;
+}
 
